@@ -14,7 +14,7 @@ process.MessageLogger.cerr.FwkReport.reportEvery = 100
 process.source = cms.Source("PoolSource",
                             # fileNames = cms.untracked.vstring('file:inputs110X.root'),
                             fileNames=cms.untracked.vstring(
-                                'file:/eos/cms/store/cmst3/group/l1tr/gpetrucc/11_1_0/NewInputs110X/110121.done/DoublePhoton_FlatPt-1To100_PU0/inputs110X_DoublePhoton_FlatPt-1To100_PU0_job1.root'),
+                                'file:/eos/cms/store/cmst3/group/l1tr/gpetrucc/12_3_X/NewInputs110X/220322/DoublePhoton_FlatPt-1To100_PU0/inputs110X_1.root'),
                             duplicateCheckMode=cms.untracked.string("noDuplicateCheck")
                             )
 
