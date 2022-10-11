@@ -153,6 +153,7 @@ modules = [
 
 process.p = cms.Path(sum(modules[1:], modules[0]))
 process.TFileService = cms.Service("TFileService", fileName=cms.string("idTupleNew.root"))
+print('done')
 
 
 def goRandom():
